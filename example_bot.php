@@ -33,10 +33,11 @@ if (file_exists(__DIR__ . '/config.ini')) {
 
 [Channel]
 ; 請在雙引號內輸入您的 Line Bot "Channel access token"
-Token = ""
+Token = "ia0CUkPXSzd08Z1eEnByXQERek2xXnM2B+NU+IH1S0Y1RYGPpwLGNiFnyu1Xap/yvaTdjhSAfV7qNYd53jqTvhCIkjY9uhHoddIWxcKz0jqsrRT1ljgWwKxMaqLUQ6WYnf9D4ijW76xVc72c9QASUAdB04t89/1O/w1cDnyilFU=
+"
 
 ; 請在雙引號內輸入您的 Line Bot "Channel secret"
-Secret = ""
+Secret = "4361cb68e1831cdc2a7b53b4a451bab4"
 ';
     fwrite($configFile, $configFileContent); // 建立文件並寫入
     fclose($configFile); // 關閉文件
